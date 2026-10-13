@@ -59,7 +59,7 @@ nav li:hover ul{
 /* Estilos del pie de pagina */
 
 footer {
-    background-color: rgb(83, 26, 38);
+    background-color: rgb(241, 140, 162);
     color:azure;
     display: flex;
     align-items: center;
@@ -82,14 +82,14 @@ section{
 
 .principal {
     width: 70%;
-    background-color: rgb(78, 78, 131);
+    background-color: rgb(157, 157, 243);
     padding: 20px;
     border: 2px solid rgb(52, 52, 52);
 }
 
 .secundario {
     width: 30%;
-    background-color: rgb(131, 78, 128);
+    background-color: rgb(224, 169, 222);
     padding: 20px;
     border: 2px solid rgb(52, 52, 52);
 }

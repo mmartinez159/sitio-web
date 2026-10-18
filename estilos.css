@@ -18,6 +18,10 @@ header img {
 
 nav {
     background-color: rgb(123, 193, 194);
+    white-space: nowrap;
+    /*white-space: la propiedad que controla cómo el navegador trata los espacios y los saltos de línea dentro de un elemento.
+    
+    nowrap: el valor. Viene de no wrap, o sea “sin envolver”. El texto se queda siempre en una sola línea.*/
 }
 
 nav ul{
@@ -109,3 +113,87 @@ section{
 }
 
 
+
+/*Practica de posiciones*/
+
+
+
+#Static_o {          /*sin ninguna declaracion position*/ 
+  background: orange;
+  height: 100px;
+  width: 100px;       
+}
+
+#Static_b {
+  background: lightseagreen;
+  height: 100px;
+  width: 100px; 
+  position: static;   /*Declarado como estatico*/ 
+}
+
+#Relative_o {
+    position:relative;
+    background:orange;
+    height:100px;
+    width: 100px;
+    top:100px;
+    left:100px;
+}
+
+#Relative_b {
+    background: lightseagreen;
+    height: 100px;
+    width:100px;
+   
+}
+
+#Container_A {
+  position: relative;
+  background: lightgray;
+}
+
+#Absolute_o {
+  position: absolute;
+  background: orange;
+  width: 100px;
+  height: 100px;
+  right: 5px;
+ 
+}
+
+#Absolute_b {
+    background: lightseagreen;
+    height: 100px;
+    width:100px;
+}
+
+#Container_F{
+  position: relative;
+  background: lightgray;
+}
+
+#Fixed_o{
+  position: fixed;
+  background: orange;
+  width: 100px;
+  height: 100px;
+  right: 5px;
+  top:340px;
+  z-index: 10;
+}
+
+#Fixed_b {
+    background: lightseagreen;
+    height: 100px;
+    width:100px;
+}
+
+#Sticky_m {
+    position:sticky;
+    background-color: rgb(178, 146, 242);
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    right: 100px;
+    text-align: center;
+}

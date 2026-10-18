@@ -82,9 +82,10 @@ section{
 
 .principal {
     width: 70%;
-    background-color: rgb(157, 157, 243);
+    background-color: rgb(163, 223, 238);
     padding: 20px;
     border: 2px solid rgb(52, 52, 52);
+    
 }
 
 .secundario {
@@ -92,4 +93,19 @@ section{
     background-color: rgb(224, 169, 222);
     padding: 20px;
     border: 2px solid rgb(52, 52, 52);
+    align-items: center;
 }
+
+.secundario img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.principal img{
+    width: 200px;
+
+}
+
+
